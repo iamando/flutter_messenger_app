@@ -1,1 +1,1 @@
-Flutter basic messenger app with Firebase 🔥
+BASIC MESSENGER APP WITH FLUTTER AND FIREBASE 🔥
