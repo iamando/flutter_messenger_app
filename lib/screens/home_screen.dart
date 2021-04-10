@@ -247,8 +247,8 @@ class _ChatRoomListTileState extends State<ChatRoomListTile> {
     username =
         widget.chatRoomId.replaceAll(widget.myUserName, "").replaceAll("_", "");
     QuerySnapshot querySnapshot = await DatabaseMethods().getUserInfo(username);
-    name = querySnapshot.docs[0]["name"];
-    profilePicUrl = querySnapshot.docs[0]["profileUrl"];
+    name = "${querySnapshot.docs[0]["name"]}";
+    profilePicUrl = "${querySnapshot.docs[0]["profileUrl"]}";
     setState(() {});
   }
 
